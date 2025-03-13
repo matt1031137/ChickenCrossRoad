@@ -4,8 +4,8 @@ import './audio.css';
 export const Audio: React.FC = () => {
     return (
         <>
-            <audio id="jump" src="./jump.wav"></audio>
-            <audio id="die" src="./die.mp3"></audio>
+            <audio id="jump" src="./audio/jump.wav"></audio>
+            <audio id="die" src="./audio/die.mp3"></audio>
         </>
     );
 };
